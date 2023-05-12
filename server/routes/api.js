@@ -6,7 +6,6 @@ const { check, validationResult } = require("express-validator");
 const router = express.Router();
 
 router.get("/", async (req, res) => {
-  res.setHeader("Access-Control-Allow-Credentials", "true")
   res.send("node api running");
 });
 
